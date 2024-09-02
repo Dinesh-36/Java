@@ -2,10 +2,10 @@
 //if we make an variable static that varriable is same for all the object
 class Student {
     int age;
-    String name;
+    java.lang.String name;
     static int batch;
-    static String schoolName = "Gov High School";
-    static String teacher;
+    static java.lang.String schoolName = "Gov High School";
+    static java.lang.String teacher;
     // static block
     // this static block will execute when the class will load
     static {
