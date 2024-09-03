@@ -4,6 +4,8 @@ import java.util.*;//this is the package where collection and generic present
 //Collection-Interface(singular)
 //Collections-Class(plural)
 
+//In collection there is a drawback that is it dosent support 'indexing'(we cant add a values in a particular index) and also we cant' sort, so we need to go for ArrayList (it has many methods than the Collection class)
+
 public class CollectionAndGeneric {
     public static void main(String[] args) {
         Collection<Integer> values = new ArrayList<Integer>();// <Integer> this is 'Generic',giving the warper class
@@ -11,6 +13,14 @@ public class CollectionAndGeneric {
         values.add(10);
         values.add(20);
         values.add(30);
+        values.add(10);
+        values.add(10);
+        System.out.println(values);
+        values.remove(10);
+        System.out.println(values);
+        while (values.contains(10)) {
+            values.remove(10);
+        }
         System.out.println(values);
 
     }
