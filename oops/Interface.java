@@ -1,4 +1,4 @@
-//interface is like Class
+//interface is like Class but not a class
 //interface provides a design so that we can build it with class
 //we cant create a object for interface but we can take as a reference (A obj = new Aimp();)
 //instead of class key word we use Interface
@@ -7,11 +7,15 @@
 //methods-only abstract methods(only declaration)
 //Note:In Abstract class there will be a Abstract method and also a normal methods but in 'interface' it only have 'Abstract Methods' not a 'normal Methods'
 
+//class to class ->extends
+//class to interfacce ->implements
+//interface to interface ->extends
+
 interface A {
     int age = 23;// static and final(by default)
 
     void show();// even if u dont mention a method is 'Abstract' by default it takes as a
-                // 'Public Abstract' Method(Publuc Abstract void show();) in Interface
+                // 'Public Abstract' Method(Public Abstract void show();) in Interface
                 // we need to implement these methods in seperate class, here only declaration
 
     void disp();

@@ -1,7 +1,8 @@
 //Final(variable,Method,class)
+//in c++ it is const,in java it is final
 //variable --> used to declare as constant
-//method-->cannot be overridden
-//class-->cannot be inherited
+//method-->cannot be overridden(to stop method overriding)
+//class-->cannot be inherited(to stop inheritance)
 
 /*final */class One {
     /* final */ void dis() {

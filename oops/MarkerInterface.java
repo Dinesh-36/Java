@@ -1,5 +1,7 @@
 
+//used to update something to compiler
 //Marker Interface (Serializable) (0 methodds) - permission
+//Serialization means it is a concept in java, it means we can take the object and store the value of that object in our hardDrive
 //if you want to execute some method with permision we can use this
 import java.io.*;
 

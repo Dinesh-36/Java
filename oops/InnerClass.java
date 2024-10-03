@@ -86,10 +86,10 @@ public class InnerClass {
         Outer obj = new Outer();
         obj.show();
         // 1. to access a method from inner class
-        Outer.Inner obj1 = obj.new Inner();
+        Outer.Inner obj1 = obj.new Inner();// non static class so it is access by object
         obj1.disp();
         // 3. to access static class
-        Outer3.Inner obj3 = new Outer3.Inner();
+        Outer3.Inner obj3 = new Outer3.Inner();// static access by class name
         obj3.disp();
         // 3.to acess a inner private claaa
         // Note:the private inner class can only be accessed within the scope of the
@@ -101,7 +101,8 @@ public class InnerClass {
         Outer2 obj2 = new Outer2();
         obj2.outerMethod();
         // 4.
-        Outer4 obj4 = new Outer4() {
+        Outer4 obj4 = new Outer4() { // this '{' is a class which has no name and akey word class so it is called as
+                                     // ananomous inner class
             public void show() {
                 System.out.println("from changed show method");
             }

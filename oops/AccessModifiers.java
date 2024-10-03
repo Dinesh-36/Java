@@ -2,7 +2,7 @@
 
 class Stu {// if in a class there is no modifer then it is by default
            // "Default"AcessModifier
-           // Note:We cant make a outer class as 'Private & Protected' it is allowed only
+           // Note:We cant make a inner class as 'Private & Protected' it is allowed only
            // for
            // 'Public,abstract,final or default'
 
@@ -13,7 +13,7 @@ class Stu {// if in a class there is no modifer then it is by default
         }
     }
 
-    // If it is private we cant access it outside of the class so that we create a
+    // If it is private we can't access it outside of the class so that we create a
     // seperate method within a same class which is public so that we can access
     // that private class out side the class by that public method
     private class InnerPrivate {
